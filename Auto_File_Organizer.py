@@ -22,4 +22,4 @@ for filename in os.listdir(folder_path):
 
     shutil.move(file_path, os.path.join(target_folder, filename))
 
-print("整理完成！")
+print("Organization Complete")
